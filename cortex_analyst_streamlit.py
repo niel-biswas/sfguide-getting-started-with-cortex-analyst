@@ -119,7 +119,8 @@ def display_content(
 
 
 st.title("MSI Finance Analyst")
-st.markdown(f"MSI Semantic Model: `{FILE}`")
+# st.markdown(f"MSI Semantic Model: `{FILE}`")
+st.markdown("start asking questions like: What questions can I ask? :D")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
