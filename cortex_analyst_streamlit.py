@@ -118,8 +118,8 @@ def display_content(
                         st.dataframe(df)
 
 
-st.title("Cortex Analyst")
-st.markdown(f"Semantic Model: `{FILE}`")
+st.title("MSI Finance Analyst")
+st.markdown(f"MSI Semantic Model: `{FILE}`")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
